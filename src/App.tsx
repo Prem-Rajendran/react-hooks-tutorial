@@ -10,7 +10,7 @@ function App() {
       description='Learn & explore React Hooks with practical examples'>
       <div className='center-list'>
         <Link to={'/UseState'}>1. useState</Link>
-        <Link to={'/'}>2. useEffect</Link>
+        <Link to={'/UseEffect'}>2. useEffect</Link>
         <Link to={'/'}>3. useEffect</Link>
       </div>
     </Section>

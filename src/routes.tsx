@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import UseStateDemo from "./hooks/useStateDemo/useStateDemo";
+import UseEffectDemo from "./hooks/useEffectDemo/useEffectDemo";
 
 const router = createBrowserRouter([
     {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
     {
         path: "/UseState",
         element: <UseStateDemo />
+    },
+    {
+        path: "/UseEffect",
+        element: <UseEffectDemo />
     }
 ])
 
