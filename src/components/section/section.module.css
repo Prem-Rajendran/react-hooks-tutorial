@@ -1,0 +1,15 @@
+.container {
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+
+.title, .description {
+    width: 100%;
+    text-align: center;
+}
+
+.description {
+    margin-top: 0px;
+    font-style: italic;
+}

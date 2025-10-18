@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container .left, .container .right {
+    width: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.center-align {
+    width: 100%;
+    text-align: center;
+}
